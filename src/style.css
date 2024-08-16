@@ -19,6 +19,9 @@ body, input, button {
 
 button {
  cursor: pointer;
+ border: none;
+ background-color: none;
+ color: inherit;
 }
 /* End CSS Reset */
 
@@ -46,11 +49,11 @@ body {
 
 #Left-Column h1 {
     margin-top: 2vh;
-    font-size: 2.5rem;
+    font-size: 3vw;
 }
 
 #Left-Column h2 {
-    font-size: 2rem;
+    font-size: 2vw;
 }
 
 #Cookie-Button {
@@ -58,8 +61,45 @@ body {
     border: none;
 }
 #Cookie-Button-Img {
-    width: 45vw;
+    width: 42vw;
     image-rendering: pixelated;
-    margin-bottom: -5vh;
+    margin-bottom: -6vh;
+    margin-top: -4vh;
 }
 /* End Left Column Style */
+
+
+/* Center Column Style */
+#Center-Column {
+    font-size: 2vw;
+    
+}
+#Center-Column p {
+    margin-bottom: 3vh;
+    padding-right: 15vw
+}
+/* End Center Column Style */
+
+/* Right Column Style */
+#Right-Column {
+    padding: 1vw;
+}
+#Right-Column h2{
+    font-size: 2vw;
+    margin-bottom: 1vh;
+}
+#Right-Column hr {
+    margin-top: 1vh;
+}
+.Shop-Card {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-top: 0.5rem;
+    font-size: 1.4rem;
+    padding: 0.5vh;
+    align-items: center;
+}
+.Shop-Card img {
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 5px;
+}
